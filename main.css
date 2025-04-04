@@ -1,0 +1,23 @@
+header {
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 18px;
+}
+
+.Nav_buttons {
+    border-style: dotted;
+    padding: 7px 25px;    
+    color: white;
+    border-width: 5px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Nav_buttons:hover{
+    border-color: aqua;
+    color: aqua;
+}
