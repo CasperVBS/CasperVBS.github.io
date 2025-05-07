@@ -1,0 +1,76 @@
+* {
+    background-color: gainsboro
+}
+
+#title{
+    text-align: center;
+    text-shadow: 100mm;
+    color: black;
+}
+
+.Nav_buttons {
+    border-style: dashed;
+    padding: 7px 25px;    
+    color: brown;
+    border-width: 5px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Nav_buttons:hover{
+    border-color: aqua;
+    color: aqua;
+}
+
+#navigatie {
+    text-align: center;
+}
+
+details {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+    outline: none;
+    list-style: none;
+    background-color: white;   
+  }
+  details[open] p {
+    background-color: #eef6ff;
+    font-size: large;
+  }
+
+  details:not([open]) p {
+    background-color: white;
+    
+  }
+
+  summary:hover {
+    color: #007BFF;
+  }
+
+  details[open] {
+    background-color: #eef6ff;
+    border-color: #007BFF;
+  }
+
+.colap_text  {
+    background-color: #eef6ff;
+    
+    
+}
+.colap_text * {
+    background-color: #eef6ff;
+    
+    
+}
