@@ -17,7 +17,7 @@
         </div>
     </header>
     <main>
-        <details open>
+        <details>
             <summary>
                 <p>Bubble sort</p>
             </summary>
@@ -64,14 +64,25 @@
         </details>
 
         
-        <details>
+        <details open>
             <summary>
-                <p>Bogo sort</p>
+                <p>selection sort</p>
             </summary>
             <div class="colap_text">
-                <p>Bubble sort is a very simple sorting algorithm, the drawback of bubble sort is that It is quit slow for larger data sets. It works by going through an array and swapping and swapping the adjunct elements, if they are in the wrong order. </p>
+                <p>Selection sort is another very simple sorting algorithm that works by repeatedly selecting the smallest element and placing it at the front of the array. You can visualize it like sorting a deck of cards using two groups: the sorted cards and the unsorted cards. Each time you find the smallest card in the unsorted group, you move it to the sorted pile. The only difference is that, in code, we use one array instead of two separate groups.</p>
                 <p><strong>The algorithm:</strong></p>
-                <h1>ed</h1>
+                <ul>
+                    <li><p>1. This sorting algorithm works by repeatedly selecting the smallest element from the unsorted part of the array.</p></li>
+                    <li><p>2. Start at the first index.</p></li>
+                    <ul>
+                        <li><p>Search through the rest of the array to find the smallest element.</p></li>
+                        <li><p>Swap it with the element at the current index.</p></li>
+                    </ul>
+                    <li><p>3. Move to the next index and repeat step 2.</p></li>
+                    <li><p>4. Continue until the whole array is sorted.</p></li>
+                </ul>
+                <p><strong>An example in python</strong></p>
+                <script src="https://gist.github.com/CasperVBS/d3e3edfd839bebce66493c62eff13432.js"></script>
          </div>
         
         </details>
