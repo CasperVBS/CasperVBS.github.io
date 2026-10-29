@@ -6,6 +6,8 @@ This is the personal website of CasperVBS. The site provides an overview of:
 - my skills
 - my projects
 - links to my work
+- work experiance
+- socials
 
 ## About
 
@@ -22,10 +24,11 @@ Several projects are featured on the homepage, including:
 
 - Forest Fire Simulator
 - Kast
+- alarm_clock
 
 ## How to View the Website
 
-Simply open the file `main.html` in your browser.
+Simply open the file `main.html` in your browser or surf to caspervbs.com
 
 ## Technologies
 
@@ -35,6 +38,4 @@ This website is built with:
 - CSS
 - JavaScript
 
-## Contact
 
-You can explore my projects on GitHub and view this portfolio website here.

@@ -1,5 +1,7 @@
 *{
     background-color:beige;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #Title{
@@ -49,4 +51,26 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px 30px;
+}
+
+.section {
+    margin-left: 20px;
+}
+
+#socials_group{
+    display: flex;   
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+#socials_group > div{
+    text-align: center;
+}
+
+#socials_group img{
+    width: 50px;
+    height: auto;
+    border-radius: 7px;
 }
